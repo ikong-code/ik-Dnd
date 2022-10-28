@@ -1,0 +1,29 @@
+.dnd-manage-container {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  margin: 100px auto;
+}
+
+.dnd-manage-draglist {
+  width: 100px;
+}
+
+.dnd-manage-draglist > div {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #eee;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+.dnd-manage-drop {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #000;
+  margin-left: 50px;
+}
+.dnd-manage-drop.active {
+  background-color: pink;
+}
